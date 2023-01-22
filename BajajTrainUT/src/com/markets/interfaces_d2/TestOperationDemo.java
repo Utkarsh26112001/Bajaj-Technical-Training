@@ -7,6 +7,7 @@ public class TestOperationDemo {
 		Demo obj= new Demo();
 		ref=obj;
 		ref.addition(10, 20);
+		System.out.println(ref.division(100,200));
 	}
 
 }

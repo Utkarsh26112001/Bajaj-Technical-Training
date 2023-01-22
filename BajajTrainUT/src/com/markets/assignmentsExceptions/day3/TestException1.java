@@ -7,7 +7,7 @@ public class TestException1 {
 	{
 		Scanner sc= new Scanner(System.in);
 		System.out.println("IN main Begin....");
-		Exception1 obj= new Exception1();
+		Q1division obj= new Q1division();
 		System.out.print("Enter the numerator::");
 		int a = sc.nextInt();
 		System.out.print("Enter the Denominator::");

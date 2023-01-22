@@ -1,7 +1,6 @@
 package com.markets.assignmentsExceptions.day3;
-import java.lang.Exception;
-import java.io.*;
-public class Exception1 {
+
+public class Q1division {
 	
 		public void Division(int num1, int num2)
 		{
@@ -12,10 +11,10 @@ public class Exception1 {
 			} 
 			else
 			{
-				throw new Exception("DivideByZeroException");
+				throw new DivideByZeroException("Pls check the denomminator");
 			}
 			}
-			catch(Exception e)
+			catch(DivideByZeroException e)
 			{
 				System.out.println(e);
 				System.out.println(e.getMessage());
